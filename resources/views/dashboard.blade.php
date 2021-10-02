@@ -39,7 +39,7 @@
                             @foreach($categories as $category)
                                 <tr class="bg-white">
                                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900 text-center">
-                                        {{ $id++ }}
+                                        {{ $number++ }}
                                     </td>
                                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900 text-center">
                                         {{ $category->name }}
